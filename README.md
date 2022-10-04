@@ -4,7 +4,7 @@
 
 instalasi `HMSC` in termux or window following github Eddie Kiddiw
 ```shell
-(https://github.com/eddiekidiw/HMSC)
+https://github.com/eddiekidiw/HMSC
 ```
 
 # Installations
