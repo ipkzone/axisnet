@@ -36,13 +36,17 @@ php main.php --axisnet
 php main.php --axisnet
 ```
 
+# Buy License key
+```shell
+click here this link and screenshoot and contact admin in whatsapp
+https://link.dana.id/minta/2r4ier53ozg
+```
+
 # Note
 The script runs with the license key,
 if you don't have a license key then you can't run it,
 to get a license key you have to ask the creator for its activation for a donation of course,
-
 This script blocks multiple user logins so that the script remains safe and secure.
 
 regards,
-
 **Iddant ID**
