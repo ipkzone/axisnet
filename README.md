@@ -14,6 +14,7 @@ https://github.com/eddiekidiw/HMSC
 ```shell
 git clone https://github.com/ipkzone/axisnet
 cd axisnet
+php main.php --axisnet
 ```
 
 install them on your linux manchine by following command in ![terminal](https://badgen.net/badge/icon/terminal?icon=terminal&label&cache=500)
@@ -28,11 +29,11 @@ pkg install php7.4 pkg install curl
 # Usage
 - Termux Android
 ```shell
-php main.php
+php main.php --axisnet
 ```
 - Other Linux Manchine
 ```shell
-php main.php
+php main.php --axisnet
 ```
 
 # Note
