@@ -1,4 +1,12 @@
 # Simple Script Tools AXISnet
+`author: Iddant ID`
+`script provider axisnet cli`
+
+instalasi `HMSC` in termux or window following github Eddie Kiddiw
+```shell
+(https://github.com/eddiekidiw/HMSC)
+```
+
 # Installations
 ```shell
 git clone https://github.com/ipkzone/axisnet
@@ -8,11 +16,11 @@ cd axisnet
 install them on your linux manchine by following command in ![terminal](https://badgen.net/badge/icon/terminal?icon=terminal&label&cache=500)
 
 ```shell
-pkg install php7.4
+apt get install php7.4 apt get install curl
 ```
 in the above for `termux in android` in other linux manchine use following command
 ```shell
-php curl
+pkg install php7.4 pkg install curl
 ```
 # Usage
 - Termux Android
