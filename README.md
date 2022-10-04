@@ -2,6 +2,9 @@
 `author: Iddant ID`
 `script provider axisnet cli`
 
+# Example view tools
+<center><img src="example.png" alt="axisnet"></center>
+
 instalasi `HMSC` in termux or window following github Eddie Kiddiw
 ```shell
 https://github.com/eddiekidiw/HMSC
