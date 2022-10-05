@@ -5,9 +5,48 @@
 # Example view tools
 <center><img src="example.png" alt="axisnet"></center>
 
-instalasi `HMSC` in termux or window following github Eddie Kiddiw
+Instalasi `HMSC` in termux or window following github Eddie Kiddiw
 ```shell
 https://github.com/eddiekidiw/HMSC
+```
+
+Following command in termux
+```shell
+pkg update && pkg upgrade
+pkg install curl & pkg install php7
+```
+
+Instalasi `HMSC` in termux example
+```shell
+curl https://raw.githubusercontent.com/EddieKidiw/HMSC/main/Linux/Termux/armv7/php7.4/nts/hmsc.so --output hmsc.so for armv7
+curl https://raw.githubusercontent.com/EddieKidiw/HMSC/main/Linux/Termux/aarch64/php7.4/zts/hmsc.so --output hmsc.so for aarch64
+```
+Copy file hmsc.so to path lib/php
+```shell
+cp hmsc.so /data/data/com.termux/files/usr/lib/php/hmsc.so + Enter
+```
+
+Isi file php.ini mengunakan command nano
+```shell
+nano php.ini
+
+Copy paste in script
+
+safe_mode = Off
+;;;;;;;;;;;;;;;;;;;;;;
+; Dynamic Extensions ;
+;;;;;;;;;;;;;;;;;;;;;;
+;
+zend_extension=hmsc.so
+
+CTRL+X , Y ,Enter
+```
+Copy php.ini in your path
+```shell
+cp php.ini /data/data/com.termux/files/usr/lib/
+
+result
+/data/data/com.termux/files/usr/lib/php.ini
 ```
 
 # Installations
