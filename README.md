@@ -78,8 +78,7 @@ php main.php --axisnet
 
 # Buy License key
 ```shell
-click here this link and screenshoot and contact admin in whatsapp
-https://link.dana.id/minta/2r4ier53ozg
+Join Whatsapp: https://chat.whatsapp.com/Bn8JeZTOco6B19n0BkKsNe
 ```
 
 # Note
