@@ -3,7 +3,8 @@
 `script provider axisnet cli`
 
 # Example view tools
-<center><img src="example.png" alt="axisnet"></center>
+<center><img src="exp01.png" alt="axisnet"></center>
+<center><img src="exp02.png" alt="axisnet"></center>
 
 Instalasi `HMSC` in termux or window following github Eddie Kiddiw
 ```shell
