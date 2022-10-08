@@ -9,6 +9,15 @@
 # Next Update
 <center><img src="update.png" alt="axisnet"></center>
 
+# New Fiture
+```shell
+- Login with OTO
+- Get Authtoken for login
+- Login with authtoken
+
+- Auto save token before get auth with file token.txt
+```
+
 # Installations
 ```shell
 git clone https://github.com/ipkzone/axisnet
