@@ -16,11 +16,11 @@ cd axisnet
 php main.php --axisnet
 ```
 
-install them on your linux manchine by following command in ![terminal](https://badgen.net/badge/icon/terminal?icon=terminal&label&cache=500)
+install command in ![terminal](https://badgen.net/badge/icon/terminal?icon=terminal&label&cache=500)
 
 ```shell
 pkg update && pkg upgrade
-pkg install curl &$ php7
+pkg install curl && php7
 ```
 
 # Usage
