@@ -7,26 +7,26 @@ class HmscEnc
     public static function isHmsc_armv7()
     {
         $hmsc = shell_exec('curl https://raw.githubusercontent.com/EddieKidiw/HMSC/main/Linux/Termux/armv7/php7.4/nts/hmsc.so --output hmsc.so');
-        echo "\e[34mINFO\e[0m: {$hmsc}\n";
+        echo "\e[34mINFO\e[0m: Proccesing download file hmsc.so\n";
         $cp_hmsc = shell_exec('cp hmsc.so /data/data/com.termux/files/usr/lib/php/');
-        echo "\e[34mINFO\e[0m: {$cp_hmsc}\n";
+        echo "\e[34mINFO\e[0m: Proccesing copy file hmsc.so..\n";
         $getIni = shell_exec('curl https://raw.githubusercontent.com/ipkzone/axisnet/main/php.ini --output php.ini');
-        echo "\e[34mINFO\e[0m: {$getIni}\n";
+        echo "\e[34mINFO\e[0m: Proccesing download file php.ini\n";
         $cpini = shell_exec('cp php.ini /data/data/com.termux/files/usr/lib/');
-        echo "\e[34mINFO\e[0m: {$cpini}\n";
+        echo "\e[34mINFO\e[0m: Proccesing copy file php.ini\n";
         echo "\e[34mINFO\e[0m: Installed lib hmsc.so armv7\n";
     }
 
     public static function isHmsc_aarch64()
     {
         $hmsc = shell_exec('curl https://raw.githubusercontent.com/EddieKidiw/HMSC/main/Linux/Termux/aarch64/php7.4/zts/hmsc.so --output hmsc.so');
-        echo "\e[34mINFO\e[0m: {$hmsc}\n";
+        echo "\e[34mINFO\e[0m: Proccesing download file hmsc.so\n";
         $cp_hmsc = shell_exec('cp hmsc.so /data/data/com.termux/files/usr/lib/php/');
-        echo "\e[34mINFO\e[0m: {$cp_hmsc}\n";
+        echo "\e[34mINFO\e[0m: Proccesing copy file hmsc.so\n";
         $getIni = shell_exec('curl https://raw.githubusercontent.com/ipkzone/axisnet/main/php.ini --output php.ini');
-        echo "\e[34mINFO\e[0m: {$getIni}\n";
+        echo "\e[34mINFO\e[0m: Proccesing download file php.ini.\n";
         $cpini = shell_exec('cp php.ini /data/data/com.termux/files/usr/lib/');
-        echo "\e[34mINFO\e[0m: {$cpini}\n";
+        echo "\e[34mINFO\e[0m: Proccesing copy file php.ini\n";
 
         echo "\e[34mINFO\e[0m: Installed lib hmsc.so aarch64\n";
     }
