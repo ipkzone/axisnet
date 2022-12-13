@@ -42,11 +42,6 @@ php main.php --axisnet
 php main.php --axisnet
 ```
 
-# Buy License key
-```shell
-Join Whatsapp: https://chat.whatsapp.com/Bn8JeZTOco6B19n0BkKsNe
-```
-
 # Note
 The script runs with the license key,
 if you don't have a license key then you can't run it,
